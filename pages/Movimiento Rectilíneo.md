@@ -1,0 +1,5 @@
+- ![Ficha04-MovimientoRectilineo.pdf](../assets/Ficha04-MovimientoRectilineo_1675777561739_0.pdf)
+- ((63e25bd8-2aed-4b4b-9b20-64185cb00d54))
+- ((63e25bb2-ba61-40ad-8dbe-a3b69b23b4d7))
+- ((63e25cd5-dc18-40c9-be46-0a055f2617e0))
+- ((63e25d0e-0674-4ebe-b9b4-fb54bc743518))

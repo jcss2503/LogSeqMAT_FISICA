@@ -1,0 +1,1 @@
+- ![Ficha01_Magnitudes.pdf](../assets/Ficha01_Magnitudes_1675763300898_0.pdf)

@@ -1,0 +1,1 @@
+- ![Ficha3_Calculo.pdf](../assets/Ficha3_Calculo_1675772622965_0.pdf)
