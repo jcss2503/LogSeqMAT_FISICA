@@ -1,0 +1,25 @@
+- La aceleración $$\vec a$$ es un vector de la misma direccion que el vector velocidad $$\vec v$$ y sentido igual si la aceleración es positiva (movimento acelerado) o contrario si la aceleración es negativa (frenado)
+-
+- ## Aceleración Tangencial
+	- Aparece cuando cambia el módulo de $$|\vec v|$$, el valor de $$\vec v$$
+	- Es un vector $$\vec a_t$$
+		- Misma dirección que $$\vec v$$
+		- Mismo sentido que $$\vec v$$ si $$\vec v$$ aumenta su valor
+		- Sentido contrario a $$\vec v$$ si $$\vec v$$ disminuye su valor
+		- El valor o módulo de la aceleración tangencial es:
+			- $$a_t=\frac {V-V_0}{t}$$
+- ## Aceleración Normal (radial o centrípeta)
+	- Aparece si camba la dirección de $$\vec v$$
+	- Es un vector $$\vec a_N$$
+		- Es perpendicular a $$\vec v$$
+		- El valor o módulo de la aceleración normal es:
+			- $$a_r=\frac {v^2}{r}$$
+- ## La aceleración Total
+	- Es la suma vectorial de la aceleracion Tangencial y la aceleración Normal.
+	- El módulo de la acelaracion Total es:
+		- $$a_T = \sqrt {a_t^2 + a_N^2}$$
+- ## Nota
+	- En el M.R.U.A. la $$a_t \neq 0$$ (y cte.) y $$a_N=0$$
+	- En el M.C.U. la $$a_t=0$$ y $$a_N \neq 0$$
+-
+-

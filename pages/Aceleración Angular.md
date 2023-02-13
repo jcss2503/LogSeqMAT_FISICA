@@ -1,0 +1,4 @@
+- La acelaracíon angular se representa por la letra $$\alpha$$ y aparece siempre que cambie el valor de la velocidad angular $$\omega$$
+	- $$\alpha=\frac {\omega - \omega_0}{t}$$
+	- Y se mide en $$\frac {rad}{s^2}$$
+- Es totalmente semejante a la aceleración tangencial esta ultima aparece cuando cambia la velocidad lineal, la angular cuando cambia la velocidad angular.
