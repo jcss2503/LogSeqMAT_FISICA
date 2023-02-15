@@ -1,0 +1,1 @@
+- ![F1_GM_T1_Cinematica.pdf](../assets/F1_GM_T1_Cinematica_1676394567073_0.pdf)
