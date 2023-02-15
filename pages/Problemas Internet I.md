@@ -8,7 +8,7 @@
 	- ## Solución
 	- Se trata de un movimiento vertical (MRAU)
 	- La aceleracíon será la gravedad $g=9,8m/s^2$.
-		- ![image.png](../assets/image_1676484015553_0.png)
+		- ![image.png](../assets/image_1676484015553_0.png){:height 295, :width 263}
 		-
 - Las ecuaciones del movimiento mientras la pelota sube serán.
 	-
@@ -32,3 +32,34 @@
 	- $$\boxed{t_{TOTAL}=1.02+1.02=2.04s}$$
 	-
 	-
+- ## Problema 14
+  type:: problem
+  unit:: 0
+	- Un cohete asciende verticalmente de manera que su altura viene dada por la expresión $x=2t^3$ en el SI. A los $5s$ de iniciarse el movimiento el cohete deja caer una pelota ¿cuanto tiempo tarda la pelota en llegar al suelo?
+	- ## Solución
+		- ![image.png](../assets/image_1676487415669_0.png)
+		-
+			- Desplazamiento $x(t)=2 t^3$
+			- Velocidad $\quad v(t)=\frac{d x(t)}{d t}=6 t^2$
+			- Aceleracion $a(t)=\frac{d v(t)}{d t}=12 t$
+		- A los 5 segundos:
+		  $$
+		  x(5)=2 t^3=2 \cdot(5)^3=250 \mathrm{~m} \quad ; v(5)=6 t^2=6 \cdot(5)^2=150 \mathrm{~m/s}
+		  $$
+		-
+		- Sustituyendo en la ecuacion del movimiento
+		- \begin{aligned}
+		  x & =x_0+v_0 t-\frac{1}{2} g t^2 \\
+		  0 & =250+150 t-\frac{1}{2}(9.8) t^2 \\
+		  t & =\frac{-150 \pm \sqrt{(150)^2+4 \cdot \frac{1}{2}(9.8) \cdot 250}}{-2\left(\frac{1}{2} 9.8\right)}=\frac{-150 \pm \sqrt{22500+19.6}}{-9.8}= \\
+		  & =\frac{-150 \pm 150.06}{-9.8}=\frac{-300.06}{-9.8}=32.25s
+		  \end{aligned}
+		- $$\boxed {t=32.25s}$$
+- ## Problema 14
+  type:: problem
+  unit:: 0
+	- Un chico se desplaza en bicicleta en linea recta a $10m/s$. Su madre, desde una ventana situada a $3m$ por encima, deja caer las llaves para que cuando el chico pase por debajo de la ventana pueda cogerlas sin modificar la velocidad de la bicicleta. Calcular:
+		- a) La distancia horizontal entre la bicicleta y la ventana para que las llaves le lleguen al chico justo cuando pasa.
+		- b) El tiempo que estan las llaves en el aire.
+		- ## Solución
+		-
