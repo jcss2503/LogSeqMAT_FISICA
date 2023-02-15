@@ -150,4 +150,11 @@
   unit:: 0
 	- Un avión recibe la orden desde la torre de control de volar en línea recta hacia el sur con una velocidad de 800 km/h. Sabiendo que el viento sopla de suroeste hacia noreste a 100 km/h, ¿en qué dirección y con qué velocidad debe dirigir el piloto el avión para mantener el rumbo ordenado por la torre?
 	- ## Solución
-	-
+-
+- ## Problema 11
+  type:: problem
+  unit:: 0
+- ¿Es posible que la posición de una pelota de golf venga dada por la expresión $\mathbf{r}(t)=\left(2+10 t,-9.8 t^2, 18 t\right) \mathrm{m}$ si sólo actúa la fuerza gravitatoria sobre la misma?
+- ## Solución
+	- Imposible ya que al derivar dos veces el vector posicion deberiamos obtener la aceleracion de la gravedad  $\mathbf{a}(t)=(0,-9.8,0) \mathrm{m} / \mathrm{s}^2$ puesto que es la única aceleración a la que esta sometida la partícula. Sin embargo:
+	- $$\mathbf{a}(t)=\frac{d^2 \mathbf{r}(t)}{d t^2}=(0,-19.6,0) \mathrm{m} / \mathrm{s}^2$$
