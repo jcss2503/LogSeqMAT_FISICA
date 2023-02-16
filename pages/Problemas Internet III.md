@@ -1,3 +1,21 @@
+- ## Problema 1
+  type:: problem
+  unit:: 0
+	- El movimiento de una pelota viene dado por el siguiente vector de posición (SI):
+		- $$\vec r(t)=4t\vec i+(t^2+2t)\vec j$$
+		- Calcular:
+		- a.- La posición en el instante t=5 s.
+		  b.- El vector desplazamiento entre t=3 s y t=5 s.
+		  c.- La ecuación de la trayectoria de la pelota.
+		  d.- La velocidad y la aceleración en el instante t=2 s.
+	- ## Solución
+- ## Problema 2
+  type:: problem
+  unit:: 0
+	- El vector de posición de un cuerpo viene dado por (SI): $\vec r(t)=(t^3-2)\vec i +(2t^2-1)\vec j$
+		- Calcula las componentes intrínsecas de la aceleración para $t = 2 s$.
+	- ## Solución
+	-
 - ## Problema 3
   type:: problem
   unit:: 0
@@ -57,3 +75,68 @@
 		  $$
 		- La ecuación de la trayectoria es una parábola
 		- $$\boxed {y=x^2+3 x+4}$$
+- ## Problema 4
+  type:: problem
+  unit:: 0
+	- Un perrito salta a un río y quiere llegar a la orilla contraria. La anchura del río es de $20 m$, la velocidad del perrito es de $0,2 m/s$, perpendicular a la orilla, y la corriente del río tiene una velocidad de $2 m/s$. Calcula:
+		- a.- El tiempo que tarda el perrito en cruzar el río.
+		  b.- Cuánto se desviará de la perpendicular al río.
+		  c.- La distancia total recorrida y el vector velocidad total del perrito.
+		  d.- La ecuación de la trayectoria.
+	- ## Solución
+		- ![image.png](../assets/image_1676559679276_0.png)
+		- $$
+		  \begin{aligned}
+		  & V_{\text {perro }}=0^{\prime} 2 \mathrm{~m} / \mathrm{s}=0^{\prime} 2 \vec j \\
+		  & V_{\text {rio }}=2 \mathrm{~m} / \mathrm{s}=2 \vec i \\
+		  & y=20 \mathrm{~m}
+		  \end{aligned}
+		  $$
+		- Se trata de un movimiento compuesto. Lo mas importante aquí es entender que cada movimiento funciona de manera independiente.
+		- #### Apartado a)
+			- $$
+			  \begin{aligned}
+			  & y=y_0+v_{\text {perro }} t \\
+			  & y=2 t \\
+			  & 20=0+0.2 t \\
+			  & t=\frac{20}{0.2} \\
+			  & \boxed {t= 100 \mathrm{~s}}
+			  \end{aligned}
+			  $$
+		- #### Apartado b)
+		-
+		- $$
+		  \begin{aligned}
+		  & x=x_0+V_{r, 0} t \\
+		  & x=0^{\prime} 2 t \\
+		  & x=0+2 \cdot 100 \\
+		  & \boxed{x=200 \mathrm{~m}}
+		  \end{aligned}
+		  $$
+		- #### Apartado c)
+			- $$
+			  d=\sqrt{x^2+y^2}=\sqrt{20^2+200^2}=200.99 \mathrm{~m}
+			  $$
+			- $$
+			  \boxed {\vec{v}=\vec{v}_{\text {perro }}+\vec{v}_{\text {rio}}=2 i+\frac{1}{5} j}
+			  $$
+		- #### Apartado d)
+			- $$
+			  \left.\begin{array}{l}
+			  y=0.2 t \\
+			  x=2 t
+			  \end{array}\right\} t=\frac{x}{2}
+			  $$
+			- $$
+			  y=0.2 \frac{x}{2}
+			  $$
+			- $$\boxed{y=\frac {1}{10}x}$$
+- ## Problema 5
+  type:: problem
+  unit:: 0
+	- Una barca quiere cruzar un río de $100 m$ de anchura de manera que llegue al punto que hay justo en frente de donde sale. Sus motores desarrollan una velocidad de $4m/s$, y la velocidad de la corriente rio abajo es de $3 m/s$.
+		- ¿Cuál debe ser el ángulo que forme la velocidad con la perpendicular a la orilla? ¿Qué tiempo tarda en cruzar el río?
+		- ¿Qué ocurriría si la velocidad de la corriente fuera mayor que la de la barca?
+		- Imagina ahora que la velocidad de otra barca es perpendicular a la orilla y que la barca aparece $330 m$ corriente abajo. ¿Cuál era su velocidad?
+	- ## Solución
+	-

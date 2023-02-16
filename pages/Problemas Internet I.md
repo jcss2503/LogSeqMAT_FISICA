@@ -55,7 +55,7 @@
 		  & =\frac{-150 \pm 150.06}{-9.8}=\frac{-300.06}{-9.8}=32.25s
 		  \end{aligned}
 		- $$\boxed {t=32.25s}$$
-- ## Problema 14
+- ## Problema 15
   type:: problem
   unit:: 0
 	- Un chico se desplaza en bicicleta en linea recta a $10m/s$. Su madre, desde una ventana situada a $3m$ por encima, deja caer las llaves para que cuando el chico pase por debajo de la ventana pueda cogerlas sin modificar la velocidad de la bicicleta. Calcular:
