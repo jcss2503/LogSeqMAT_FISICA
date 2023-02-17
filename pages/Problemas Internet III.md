@@ -139,5 +139,41 @@
 		- ¿Qué ocurriría si la velocidad de la corriente fuera mayor que la de la barca?
 	- Imagina ahora que la velocidad de otra barca es perpendicular a la orilla y que la barca aparece $330 m$ corriente abajo. ¿Cuál era su velocidad?
 	- ## Solución
-	- ![image.png](../assets/image_1676623883684_0.png)
+	- ![image.png](../assets/image_1676629492216_0.png)
+	- Las ecuaciones del movimiento de la barca son:
+	- $$
+	  \left.\left.\begin{array}{l}
+	  v_{x_{\text {Barca }}}=v_{\text {Barca }} \operatorname{cos} \theta \\
+	  v_{y_{\text {Barca }}}=v_{\text {Barca }} \operatorname{sen} \theta
+	  \end{array}\right\} \quad \begin{array}{l}
+	  x=v_{x_0}+v_{x_{\text {Barca }}} t \\
+	  y=v_{y_0}+v_{y_{\text {barca }}} t
+	  \end{array}\right\}
+	  $$
+	-
+	- La barca tiene que salir desde la orilla con un ángulo determinado $\theta$ para que su movimiento sea completamente perpendicular a la orilla, osea, la componente $$\vec v_x$$ debe anular a la corriente del rio, lo cual significa que esa componante tiene que tener el mismo módulo y direccion contraria a la velocidad de la corriente del río. Por tanto:
+		- $$
+		  \left.\begin{array}{l}
+		  v_{x_{Barca}}=v_{\text {Barca }} \cos \theta \\
+		  v_{x_{\text {Barca}}}=-v_{x_{Rio}}
+		  \end{array}\right\}-3=4 \cos \theta \Rightarrow \theta=\operatorname{arcos}\left(-\frac{3}{4}\right)=-48.5^{\circ}
+		  $$
+	-
+		- $$\boxed {\theta = -48.5^{\circ}}$$
+		- Veamos el tiempo que tarda en llegar:
+			- $$
+			  \begin{aligned}
+			  y & =v_{\text {Barca}} \cdot \cos \theta t \\
+			  100 & =4 \cdot \cos \left(-48.5\right) t \\
+			  t & =\frac{100}{4 \cos \left(-48.5\right)}=37.7s
+			  \end{aligned}
+			  $$
+			- $$\boxed{t=37.7s}$$
+	- Si la velocidad de la corriente fuera mayor que la de la barca ($v_{Barca} < v_{x_{Rio}}$)
+		- Tendríamos
+		- $$v_{Barca} \leq v_{x_{Barca}}=v_{Barca} cos\theta$$
+		- Ya que $cos \theta \leq 1$ y:
+		- $$v_{x_{Barca}} < v_{x_{Rio}}$$
+		-
+	- Y por lo tanto la barca nunca llegaría al punto justo enfrente al de salida porque seria arrastrada por la corriente en dirección $x$.
 	-
