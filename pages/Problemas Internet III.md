@@ -9,6 +9,45 @@
 		  c.- La ecuación de la trayectoria de la pelota.
 		  d.- La velocidad y la aceleración en el instante t=2 s.
 	- ## Solución
+		- $$
+		  \begin{gathered}
+		  \vec{r}(t)=4 t \vec{i}+\left(t^2+2 t\right) \vec{j} \\
+		  \vec{v}(t)=\frac{d \vec{r}(t)}{d t}=4 \vec{c}+(2 t+2) \vec{j} \\
+		  \vec{a}(t)=\frac{d v(t)}{d t}=2 \vec{j}
+		  \end{gathered}
+		  $$
+		- ### Apartado a)
+			- $$
+			  \vec{r}(5)=(4 \cdot 5) i+\left(5^2+(2 \cdot 5)\right) \vec{j}=20 \vec{i}+35 \vec{j}
+			  $$
+			- $$
+			  \boxed {\vec r(5)=2 \vec{i}+35 \vec{j}}
+			  $$
+		- ### Apartado b)
+		- $$
+		  \vec{r}(3)=(4 \cdot 3) \vec{i}+\left(3^2+(2 \cdot 3) \vec{j}=12 \vec{i}+15 \vec{j}\right.
+		  $$
+		- $$
+		  \vec{d}_{(3,5)}=\vec{r}(5)-\vec{r}(3)=20 \vec{l}+35 j-12 \vec{i}-15 \vec{j}=8 \vec{i}-20 \vec{j}
+		  $$
+		- $$\boxed{\vec{d}_{(3,5)}}=8 \vec{i}-20 \vec{j}$$
+		- ### Apartado c)
+			- $$
+			  \left.\begin{array}{l}
+			  x=4 t \\
+			  y=t^2+2 t
+			  \end{array}\right\} t=\frac{x}{4}
+			  $$
+			- $$
+			  y=\frac{x^2}{16}+\frac{x}{2} \Rightarrow \boxed{y=\frac{1}{8} x^2+x}
+			  $$
+		- ### Apartado d)
+			- $$
+			  \begin{aligned}
+			  & \vec{v}(2)=4 \vec{i}+6 \vec{j} \\
+			  & \vec{a}(2)=2 \vec{j}
+			  \end{aligned}
+			  $$
 - ## Problema 2
   type:: problem
   unit:: 0
