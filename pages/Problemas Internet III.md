@@ -54,7 +54,52 @@
 	- El vector de posición de un cuerpo viene dado por (SI): $\vec r(t)=(t^3-2)\vec i +(2t^2-1)\vec j$
 		- Calcula las componentes intrínsecas de la aceleración para $t = 2 s$.
 	- ## Solución
-	-
+		- Partimos del vector posición:
+			- $$
+			  r(t)=\left(t^3-2\right) \vec{i}+\left(2 t^2-1\right) \vec{j}
+			  $$
+		- Derivamos y obtenemos el vector velocidad:
+		- $$
+		  \vec{v}(t)=\frac{d \vec{r}(t)}{d t}=3 t^2 \vec{i}+4 t \vec{j}
+		  $$
+		- Hallamos el módulo del vector velocidad:
+		- $$
+		  |\vec v(t)|=\sqrt{\left(3 t^2\right)^2+(4 t)^2}=\sqrt{9 t^4+16 t^2}
+		  $$
+		- Derivamos el vector aceleracion y obtenemos el vector aceleracion total
+		- $$
+		  \vec{a}(t)=\frac{d \vec{v}(t)}{d t}=6 t \vec{i}+4 \vec{j}
+		  $$
+		- Hallamos el módulo del vector aceleración total
+		- $$|\vec{a}(t)|= a(t)=\sqrt{6 t^2+4^2}$$
+		- Hallamos la aceleracion tangencial derivando el módulo de la velocidad:
+		- $$
+		  a_t(t)=\frac{d v(t)}{d(t)}=\frac{36 t^3+32 t}{2 \sqrt{9 t^4+16 t^2}}
+		  $$
+		- Por el teorema de Pitagoras:
+		- $$
+		  \begin{aligned}
+		  & a(t)^2=a_t(t)^2+a_n(t)^2 \\
+		  & a_n(t)^2=a(t)^2-a_t(t)^2 \\
+		  & a_n(t)=\sqrt{a(t)^2-a_t(t)^2}
+		  \end{aligned}
+		  $$
+		- Para $t=2$
+			- $$
+			  a_t(2)=\frac{36 \cdot 2^3+32 \cdot 2}{2 \sqrt{9 \cdot 2^4+16 \cdot 2^2}}=12.20 \mathrm{~m} / \mathrm{s}^2
+			  $$
+		-
+			- $$
+			  \vec{a}(2)=12 \vec{i}+4 \vec{j}
+			  $$
+			- $$
+			  |\vec a(2)|=a(2)=\sqrt{12^2+4^2}=12.65 \mathrm{~m} / \mathrm{s}^2
+			  $$
+				- $$
+				  a_n(2)=\sqrt{a(2)^2-a_t^2(2)^2}=\sqrt{12.65-12.20}=3.34 \mathrm{~m} / \mathrm{s}^2
+				  $$
+				- $$\boxed {a_t(2)=12.20 \mathrm{~m} / \mathrm{s}^2}$$
+				- $$\boxed {a_n(2)=3.34 \mathrm{~m} / \mathrm{s}^2}$$
 - ## Problema 3
   type:: problem
   unit:: 0
